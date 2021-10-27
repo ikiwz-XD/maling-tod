@@ -17,5 +17,14 @@ $ pip2 install -r zona.zafi
 $ python2 zafi.py 
 
 
-ikyy
+
+
+
+
+
+
+
+#Sory gw recode gw gak ubah apa²
+
+#kyy
 
