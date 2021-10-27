@@ -21,10 +21,5 @@ $ python2 zafi.py
 
 
 
-
-
-
-#Sory gw recode gw gak ubah apa²
-
-#kyy
+Gak usah makasih😌 Karena gw Recode!
 
