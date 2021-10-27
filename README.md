@@ -48,7 +48,7 @@
 $ pkg update && pkg upgrade
 $ pkg install python2
 $ pkg install git
-$ git clone https://github.com/Yayan-XD/ymbf
+$ git clone https://github.com/ikiwz-XD/maling-tod
 $ pip2 install requests bs4
 $ pip2 install futures
 ```
@@ -67,3 +67,6 @@ gunakanlah dengan bijak, atas apapun yang terjadi admin tidak bertanggung jawab.
 
 
 ##### Notice Me : Please Don't Change Name Author Thanks For Using My Script
+
+
+#####    SALAM SATU RECODE KARENA GAK BISA NGODING    #####
