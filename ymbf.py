@@ -90,7 +90,7 @@ def tod():
 
 # LO KONTOL
 logo = ''' \033[0;96m __  __        __  ______  ____
- \033[0;96m \ \/ / ____  /  |/  / _ )/ __/ ® \033[0m|| Created by ikiwz-XD
+ \033[0;96m \ \/ / ____  ×/  |/  / _ )/ __/ ® \033[0m|| Created by ikiwz-XD
  \033[0;96m  \  / /___/ / /|_/ / _  / _/     \033[0m|| Github.com/ikiwz_XD
  \033[0;96m  /_/       /_/  /_/____/_/ \033[0;91mv2.0  \033[0m|| Facebook.com/KM39453'''
 
@@ -102,7 +102,7 @@ def hasil(ok,cp):
         print '\n\n [%s+%s] total OK : %s%s%s'%(O,N,H,str(len(ok)),N)
         print ' [%s+%s] total CP : %s%s%s'%(O,N,K,str(len(cp)),N);exit()
     else:
-        print '\n\n [%s!%s] opshh kamu tidak mendapatkan hasil :('%(M,N);exit()
+        print '\n\n [%s!%s] opshh kamu tidak mendapatkan hasil sabar tod!:('%(M,N);exit()
 
 #masuk token
 def yayanxd():
