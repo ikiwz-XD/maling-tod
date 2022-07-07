@@ -265,7 +265,7 @@ def publik(kontol):
         os.mkdir('dump')
     except:pass
     try:
-        csy = raw_input('\n %s[%s?%s] id publik  : '%(N,O,N))
+        csy = raw_input('\n %s[%s?%s] id publik  : '%'%(N,O,N))
         ahh = raw_input(' %s[%s?%s] nama file  : '%(N,O,N))
         ihh = raw_input(' %s[%s?%s] limit id   : '%(N,O,N))
         knt = ('dump/' + ahh + '.json').replace(' ', '_')
@@ -281,7 +281,7 @@ def publik(kontol):
         ys.close()
         jalan('\n\n %s[%s✓%s] berhasil dump id dari teman publik'%(N,H,N))
         print ' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,knt,N)
-        print 50 * '-'
+        print 100 * '-'
         raw_input(' [%s ENTER%s ] '%(O,N));moch_yayan()
     except (KeyError,IOError):
         os.remove(knt)
