@@ -148,16 +148,16 @@ def moch_yayan():
     print ' (\033[0;96m•\033[0m) ACTIVE USER : %s'%(nama);time.sleep(0.03)
     print ' (\033[0;96m•\033[0m) IP DEVICE   : %s'%(IP)
     print '___________________________________________________________\n';time.sleep(0.03)
-    print ' [%s1%s]. Dump id dari teman'%(O,N);time.sleep(0.03)
-    print ' [%s2%s]. Dump id dari teman publik'%(O,N);time.sleep(0.03)
-    print ' [%s3%s]. Dump id dari total followers'%(O,N);time.sleep(0.03)
-    print ' [%s4%s]. Dump id dari like postingan'%(O,N);time.sleep(0.03)
-    print ' [%s5%s]. Mulai crack'%(O,N);time.sleep(0.03)
-    print ' [%s6%s]. Check ingformasi akun fb'%(O,N);time.sleep(0.03)
-    print ' [%s7%s]. Lihat hasil crack'%(O,N);time.sleep(0.03)
-    print ' [%s8%s]. Settings user agent'%(O,N);time.sleep(0.03)
-    print ' [%s9%s]. Ingfo %sscript%s'%(O,N,O,N);time.sleep(0.03)
-    print ' [%s0%s]. logout (%shapus token%s)'%(M,N,M,N);time.sleep(0.03)
+    print ' [%s1%s]. Dump id dari teman'%(O,N);time.sleep(0.02)
+    print ' [%s2%s]. Dump id dari teman publik'%(O,N);time.sleep(0.02)
+    print ' [%s3%s]. Dump id dari total followers'%(O,N);time.sleep(0.02)
+    print ' [%s4%s]. Dump id dari like postingan'%(O,N);time.sleep(0.02)
+    print ' [%s5%s]. Mulai crack'%(O,N);time.sleep(0.02)
+    print ' [%s6%s]. Check ingformasi akun fb'%(O,N);time.sleep(0.02)
+    print ' [%s7%s]. Lihat hasil crack'%(O,N);time.sleep(0.02)
+    print ' [%s8%s]. Settings user agent'%(O,N);time.sleep(0.02)
+    print ' [%s9%s]. Ingfo %sscript%s'%(O,N,O,N);time.sleep(0.02)
+    print ' [%s0%s]. logout (%shapus token%s)'%(M,N,M,N);time.sleep(0.02)
     pepek = raw_input('\n [*] menu : ')
     if pepek == '':
         print '\n %s[%s×%s] jangan kosong kentod!'%(N,M,N);time.sleep(2);moch_yayan()
@@ -244,7 +244,7 @@ def teman(kontol):
             w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
             sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n [\033[0;96m%s\033[0m] [\033[0;91m%s\033[0m] Proses Dump Id...'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
             )); sys.stdout.flush()
-            time.sleep(0.0050)
+            time.sleep(0.0020)
 
         ys.close()
         jalan('\n\n %s[%s✓%s] berhasil dump id dari teman'%(N,H,N))
@@ -483,13 +483,13 @@ def cek_ingfo(kontol):
     except (KeyError, IOError):
     	dari = '%s-%s'%(M,N)
     except: pass
-    print ' [*] kota asal      : %s'%(dari);time.sleep(0.03)
+    print ' [*] kota asal      : %s'%(dari);time.sleep(0.02)
     try:
     	tigl = x['location']['name']
     except (KeyError, IOError):
     	tigl = '%s-%s'%(M,N)
     except: pass
-    print ' [*] tinggal di     : %s'%(tigl);time.sleep(0.03)
+    print ' [*] tinggal di     : %s'%(tigl);time.sleep(0.02)
     try:
     	tzim = x['timezone']
     except (KeyError, IOError):
@@ -514,8 +514,8 @@ def cek_ingfo(kontol):
 def info_tools():
     os.system('clear')
     print ' %s[%s#%s]'%(N,O,N), 52 * '\x1b[1;96m-\x1b[0m';time.sleep(0.07)
-    print '\n %s[%s>%s] Yt       : Yayan XD.'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Author   : Moch Yayan Juan Alvredo XD.'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s>%s] Yt       : Ikiwz-XD.'%(N,H,N);time.sleep(0.03)
+    print '\n %s[%s>%s] Author   : Moch Ikiwz Juan Alvredo XD.'%(N,H,N);time.sleep(0.07)
     print '\n %s[%s>%s] Github   : https://github.com/Yayan-XD'%(N,H,N);time.sleep(0.07)
     print '\n %s[%s>%s] Facebook : https://www.facebook.com/KM39453'%(N,H,N);time.sleep(0.07)
     print '\n %s[%s>%s] Fanspage : https://www.facebook.com/Yayanxyz'%(N,H,N);time.sleep(0.07)
@@ -634,12 +634,12 @@ class __crack__:
                             print '\n %s[%s×%s] input yang bener'%(N,M,N);self.__yan__()
                     print '\n [ pilih method login - silahkan coba satu² ]\n'
                     print ' [%s1%s]. method API (fast)'%(O,N)
-                    print ' [%s2%s]. method mbasic (slow)'%(O,N)
+                    print ' [%s2%s]. method mbasic (slow) (Recomend)'%(O,N)
                     print ' [%s3%s]. method mobile (super slow)'%(O,N)
                     __yan__(pwek.split(','))
                     break
         elif ___yayanganteng___ in ('T', 't'):
-            print '\n [ pilih method login - silahkan coba satu² ]\n'
+            print '\n [ pilih method login - silahkan coba Hiji Hiji ]\n'
             print ' [%s1%s]. method API (fast)'%(O,N)
             print ' [%s2%s]. method mbasic (slow)'%(O,N)
             print ' [%s3%s]. method mobile (super slow)'%(O,N)
@@ -868,7 +868,7 @@ class __crack__:
             hasil(ok,cp)
 
         else:
-            print '\n %s[%s×%s] input yang bener'%(N,M,N);self.__pler__()
+            print '\n %s[%s×%s] input yang bener tolol'%(N,M,N);self.__pler__()
 
 if __name__ == '__main__':
     os.system('git pull')
